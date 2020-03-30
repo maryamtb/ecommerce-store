@@ -3,13 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: "AIzaSyAc6dr6k6gbeUQ0letqexFlGS4zqQVRMUU",
+  authDomain: "thugg-juice.firebaseapp.com",
+  databaseURL: "https://thugg-juice.firebaseio.com",
+  projectId: "thugg-juice",
+  storageBucket: "thugg-juice.appspot.com",
+  messagingSenderId: "935988625702",
+  appId: "1:935988625702:web:9451b6706c7ab1af5241e7",
+  measurementId: "G-777YNKPRJY"
 };
 
 firebase.initializeApp(config);
