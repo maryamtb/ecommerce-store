@@ -1,0 +1,1 @@
+# Ecommerce App Boilerplate for Thugg Juice
