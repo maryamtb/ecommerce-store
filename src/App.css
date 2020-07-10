@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'TTCommons-Regular';
+  src: url('./assets/font/TTCommons-Regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 body {
-  font-family: 'Open Sans Condensed';
+  font-family: "Neue-Helvetica","Helvetica","Arial",Sans-Serif;
   padding: 20px 40px;
+
 }
 
 a {
@@ -10,4 +18,5 @@ a {
 
 * {
   box-sizing: border-box;
+  
 }

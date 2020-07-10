@@ -1,1 +1,1 @@
-# Ecommerce App Boilerplate for Thugg Juice
+# FAFA Paris Online Store

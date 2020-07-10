@@ -1,6 +1,13 @@
 .directory-menu {
-  width: 100%;
+  overflow: hidden;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   justify-content: space-between;
+  margin-bottom: 60px;
 }

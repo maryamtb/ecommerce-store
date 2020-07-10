@@ -14,8 +14,8 @@ $main-color: black;
   .form-input {
     background: none;
     background-color: white;
-    color: $sub-color;
-    font-size: 18px;
+    color: $main-color;
+    font-size: 12px;
     padding: 10px 10px 10px 5px;
     display: block;
     width: 100%;
@@ -34,17 +34,17 @@ $main-color: black;
   }
 
   input[type='password'] {
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
   }
 
   .form-input-label {
     color: $sub-color;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: normal;
     position: absolute;
     pointer-events: none;
     left: 5px;
-    top: 10px;
+    top: 15px;
     transition: 300ms ease all;
 
     &.shrink {
