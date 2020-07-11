@@ -53,7 +53,7 @@ export default function Footer(props) {
         </div>
       </nav>
       <div id="bottom">
-        <p>© 2020 FAFA PARIS. ALL RIGHTS RESERVED.</p>
+        <p>© 2020 FAFA PARIS. Made by <a href="https://maryamtb.herokuapp.com">MTB.</a> ALL RIGHTS RESERVED. </p>
       </div>
     </div>
   );
