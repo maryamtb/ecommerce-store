@@ -7,9 +7,10 @@ const buttonStyles = css`
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.1rem;
+  border: 1px solid white;
 
   &:hover {
-    background-color: #343434;
+    background-color: #f7b763;
     color: white;
     border: 1px solid #343434;
   }

@@ -15,7 +15,6 @@ export const HeaderContainer = styled.div`
   border-bottom: 1px solid white;
   position: relative;
   top: 0;
-  // background-color: white;
 `;
 
 export const Title = styled.h1`
@@ -25,8 +24,7 @@ export const Title = styled.h1`
   letter-spacing: 0.3rem;
   margin-top: 0px;
   margin-left: 20px;
-  // padding: 0px 0px 10px 0px;
-
+  // padding: 0px 0px 10px 0px;  
 `;
 
 export const SearchBar = styled.h4`

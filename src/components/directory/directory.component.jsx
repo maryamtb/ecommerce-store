@@ -15,7 +15,7 @@ import "./directory.styles.scss";
 
 const Directory = ({ sections }) => (
   // <div className="directory-menu">
-    /* <img src={tmiddle} style={{ width: "420px", height: "20%" }} />
+  /* <img src={tmiddle} style={{ width: "420px", height: "20%" }} />
 
     {sections.map(({ id, ...otherSectionProps }) => (
       <>
@@ -24,7 +24,7 @@ const Directory = ({ sections }) => (
       </>
     ))} */
 
-    /* <iframe
+  /* <iframe
       style={{ marginLeft: "100px" }}
       width="676"
       height="380"
@@ -33,12 +33,20 @@ const Directory = ({ sections }) => (
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     ></iframe> */
-    <>
-    <div className="home-button" style={{marginTop: '10%', marginBottom: '25%'}}></div>
-<div className="vimeo-wrapper">
-<iframe src="https://player.vimeo.com/video/17692083?autoplay=1&controls=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
-   </>
+  <>
+    <div
+      className="home-button"
+      style={{ marginTop: "10%", marginBottom: "25%" }}
+    ></div>
+    <div className="vimeo-wrapper">
+      <iframe
+        src="https://player.vimeo.com/video/17692083?autoplay=1&controls=0"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </>
 );
 
 const mapStateToProps = createStructuredSelector({
