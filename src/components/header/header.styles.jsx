@@ -11,16 +11,17 @@ export const HeaderContainer = styled.div`
   margin-left: -50vw;
   margin-right: -50vw;
   justify-content: space-between;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   position: relative;
   top: 0;
-  background-color: white;
+  // background-color: white;
 `;
 
 export const Title = styled.h1`
   font-family: "Bangers", cursive;
   font-size: 65px;
+  color: white;
   letter-spacing: 0.3rem;
   margin-top: 0px;
   margin-left: 20px;
@@ -30,6 +31,7 @@ export const Title = styled.h1`
 
 export const SearchBar = styled.h4`
   font-size: 16px;
+  color: white;
   align-text: center;
   justify-content: center;
   align-items: center;
@@ -52,6 +54,7 @@ export const OptionsContainer = styled.div`
   width: 50%;
   height: 100%;
   display: flex;
+  color: white;
   align-items: center;
   justify-content: flex-end;
   font-size: 13px;
@@ -60,4 +63,5 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   padding: 5px 10px;
   cursor: pointer;
+  color: white;
 `;
