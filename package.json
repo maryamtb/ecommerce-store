@@ -7,6 +7,7 @@
     "node": "12.x"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.11.0",
     "firebase": "6.0.2",
     "node-sass": "^4.14.1",
     "react": "^16.8.6",
