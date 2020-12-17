@@ -40,10 +40,10 @@ const Directory = ({ sections }) => (
     ></div>
     <div className="vimeo-wrapper">
       <iframe
-        src="https://player.vimeo.com/video/17692083?autoplay=1&controls=0"
-        frameborder="0"
+        src="https://player.vimeo.com/video/17692083?autoplay=1&controls=0&mute=0"
+        frameBorder="0"
         allow="autoplay; fullscreen"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
     </div>
   </>

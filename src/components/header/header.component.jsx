@@ -13,10 +13,12 @@ import {
   Title,
   LogoContainer,
   SearchBar,
-  SearchImg,
+  // SearchImg,
   OptionsContainer,
   OptionLink,
 } from "./header.styles";
+
+
 
 const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
@@ -30,9 +32,10 @@ const Header = ({ currentUser, hidden }) => (
     {/* <input
       type="text"
       className="input"
-      onChange={this.handleChange}
+      onChange={searchFilterOnChange}
       placeholder="Search..."
     /> */}
+    
     <OptionsContainer>
       {currentUser ? (
         <>
