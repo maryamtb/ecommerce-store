@@ -96,13 +96,13 @@ $grey-lighter: grey;
   }
   background-color: black;
 
-  // position: absolute;
-  bottom: 87.5px;
+  position: relative;
+  // bottom: 87.5px;
   // width: 100%;
-  height: 80vh;
+  // height: auto;
   // display: flex;
   color: white;
-  margin-top: 30px;
+  margin-bottom: -50%;
   width: 100vw;
   left: 50%;
   right: 50%;
@@ -111,7 +111,7 @@ $grey-lighter: grey;
   font-size: 12px;
   justify-content: space-between;
   border-bottom: 1px solid white;
-  position: absolute;
+  // position: relative;
 
   height: 1px;
 

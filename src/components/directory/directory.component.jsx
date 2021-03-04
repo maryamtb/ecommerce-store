@@ -33,7 +33,7 @@ const Directory = ({ sections }) => (
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     ></iframe> */
-  <>
+  <div className="directory">
     <div
       className="home-button"
       style={{ marginTop: "10%", marginBottom: "25%" }}
@@ -41,13 +41,13 @@ const Directory = ({ sections }) => (
     <div className="vimeo-wrapper">
       <iframe
         title="bg-video"
-        src="https://player.vimeo.com/video/17692083?autoplay=1&controls=0&mute=1"
+        src="https://player.vimeo.com/video/17692083?&muted=1&autoplay=1&controls=0"
         frameBorder="0"
         allow="autoplay; fullscreen"
         allowFullScreen
       ></iframe>
     </div>
-  </>
+  </div>
 );
 
 const mapStateToProps = createStructuredSelector({
